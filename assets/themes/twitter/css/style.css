@@ -64,52 +64,36 @@
   border: 1px solid #4c964d;
   color: #FFF; }
 
-@font-face {
-  font-family: SourceSansPro-Regular;
-  src: url(/fonts/SourceSansPro-Regular.otf);
-}
 
-@font-face {
-  font-family: SourceSansPro-Light;
-  src: url(/fonts/SourceSansPro-Light.otf);
-}
-
-@font-face {
-  font-family: FjordOne-Regular;
-  src: url(/fonts/FjordOne-Regular.otf);
-}
 
 h1 {
-  font-family: FjordOne-Regular;
-  font-size: 3.2em;
-}
-
-h3 {
-  font-family: FjordOne-Regular;
-  font-size: 2.8em;
-}
-
-h4 {
-  font-family: SourceSansPro-Light;
-  font-size: 1.5em;
+  font-family: 'Merriweather', serif;
+  font-size: 4em;
 }
 
 body p {
-  font-family: FjordOne-Regular;
-  font-size: 1.3em;
+  font-family: 'Abel', serif;
+  font-size: 1.5em;
+  line-height: 1.2em;
 }
 
-.reads ul{
-  font-family: SourceSansPro-Light;
-  font-size: 1em;
-}
 
 .serif {
-  font-family: FjordOne-Regular;
+  font-family: 'Merriweather', serif;
   font-size: 1.3em;
 }
 
 .sansserif {
-  font-family: SourceSansPro-Light;
+  font-family: 'Abel', sans-serif;
   font-size: 1.3em;
 }
+
+body {
+  color: black;
+  background-color: #F5F5F5;
+}
+
+a:link {color:#961728;}
+a:hover {color:#961728;}
+a:visited {color:#961728;}
+a:active {color:#961728;}
