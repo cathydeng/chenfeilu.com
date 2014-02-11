@@ -1,4 +1,5 @@
-source :rubygems
-
-gem 'rack-contrib'
-gem 'shotgun', :group => :development
+source 'https://rubygems.org'
+ruby '1.9.3'
+gem 'bundler'
+gem 'jekyll'
+gem 'rack-jekyll'
